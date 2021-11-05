@@ -32,4 +32,4 @@ while True:
  date = time.ctime(current_time)
  tweet = 'As of %s, the current world population is %s(+%s).' %(date,population,difference)
  api.update_status(tweet)
- time.sleep(86400)
+ time.sleep(30)
