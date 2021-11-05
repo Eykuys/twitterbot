@@ -1,3 +1,4 @@
+heroku buildpacks:set heroku/php
 import tweepy
 CONSUMER_KEY = 'zkbYgY2KH2sSZDzlJeAPtxoTU'
 CONSUMER_SECRET = 'rUUx3VJZ32evg6Tw079tY573OfzmWr7qlYVO1g7fFz3O6cGGfF'
