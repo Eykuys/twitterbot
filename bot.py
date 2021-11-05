@@ -15,6 +15,6 @@ while True:
  soup = BeautifulSoup(reponse.text,"html.parser")
  item=soup.find('td')
  population=item.div.text
- time.sleep(15)
+ time.sleep(86400)
  tweet = 'The current world population is %s' %(population)
  api.update_status(tweet)#
